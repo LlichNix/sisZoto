@@ -1,0 +1,298 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Homepage Styles */
+
+.video {
+    width: 100%;
+    max-width: 1000px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+/* Destination Page Styles */
+
+.destination-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.destination-gallery img {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+}
+
+/* Accommodation Page Styles */
+
+.accommodation-list {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.accommodation-list h3 {
+    margin-bottom: 10px;
+}
+
+/* Transportation Page Styles */
+
+.transportation-info {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* About Page Styles */
+
+/* Delicacies Page Styles */
+
+.delicacies-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.delicacies-gallery img {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+}
+
+/* Developer Page Styles */
+
+.developer-info {
+    text-align: center;
+}
+
+.developer-info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Add this to your existing CSS file */
+
+.floating-logo {
+    position: fixed;
+    top: 20px;
+    /* Adjust as needed */
+    left: 20px;
+    /* Adjust as needed */
+    z-index: 9999;
+    /* Ensure the logo appears above other content */
+}
+
+.floating-logo img {
+    width: 100px;
+    /* Adjust the width as needed */
+    height: auto;
+}
+
+/* Update the existing CSS file */
+
+.floating-logo img {
+    width: 100px;
+    /* Adjust the width as needed */
+    height: 100px;
+    /* Adjust the height to match the width */
+    border-radius: 50%;
+    /* Make the border radius 50% of the width/height to create a circle */
+}
+
+/* Update the existing CSS file */
+
+.floating-logo img {
+    width: 100px;
+    /* Adjust the width as needed */
+    height: 100px;
+    /* Adjust the height to match the width */
+    border-radius: 50%;
+    /* Make the border radius 50% of the width/height to create a circle */
+}
+
+/* Add this to your existing CSS file */
+
+/* Add this to your existing CSS file */
+
+/* Destination Page Styles */
+#destination .container {
+    padding: 20px;
+}
+
+.destination-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.destination-item {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.destination-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.destination-item h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.destination-item p {
+    margin-bottom: 10px;
+}
+
+/* Add this to your existing CSS file */
+
+/* Accommodation Page Styles */
+#accommodation .container {
+    padding: 20px;
+}
+
+.accommodation-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.accommodation-item {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.accommodation-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.accommodation-item h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.accommodation-item p {
+    margin-bottom: 10px;
+}
+
+/* Add this to your existing CSS file */
+
+/* Transportation Page Styles */
+#transportation .container {
+    padding: 20px;
+}
+
+.transportation-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.transportation-item {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.transportation-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.transportation-item h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.transportation-item p {
+    margin-bottom: 10px;
+}
